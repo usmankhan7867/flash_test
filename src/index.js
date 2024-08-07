@@ -14,8 +14,8 @@ app.use(cors());
 app.use(express.json());
 app.use('/api', addressRoutes);
 app.get("/", (req, res) => {
-    res.send("Hello, Welcome to airdrop !");
+    res.send("Hello, Solana Address Storer!");
 });
-app.listen(3000, () => {
-    console.log('Server is running on port 3000');
+app.listen(5000, () => {
+    console.log('Server is running on port 5000');
 });
